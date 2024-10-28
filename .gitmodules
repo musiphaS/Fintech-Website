@@ -1,0 +1,3 @@
+[submodule "fintech-app"]
+    path = fintech-app
+    url = https://github.com/musiphaS/Fintech-Website-Landing-Page.git
