@@ -78,7 +78,7 @@ const Services = () => {
       <div className="text-center mb-4">
         <p className="text-orange-500 font-semibold">SERVICES</p>
       </div>
-        <div className="grid grid-cols-1 gap-4 p-4 md:grid-cols-2 lg:grid-cols-4 bg-white">
+        <div className="grid grid-cols-1 gap-4 p-4 md:grid-cols-2 lg:grid-cols-3 bg-white">
             {/* Combined Image and Transfer Section */}
             <div className="col-span-1 lg:col-span-4 bg-[#F6F9F8] rounded-lg shadow-lg p-4 flex flex-col lg:flex-row items-center justify-center gap-4">
                 {/* Image Section */}
@@ -96,7 +96,7 @@ const Services = () => {
 
 
             {/* Create Card Section */}
-            <div className="col-span-1 lg:col-span-2 bg-[#F6F9F8] rounded-lg p-6">
+            <div className=" lg:col-span-2 bg-[#F6F9F8] rounded-lg p-6">
                 <h3 className="text-lg md:text-xl font-semibold text-gray-800">Create A Card That Is Unique And Customized</h3>
                 <p className="text-gray-500 mt-2 text-sm md:text-base">
                     We offer a comprehensive range of innovative financial services tailored to meet your needs. Our services include high-yield savings accounts.
@@ -118,7 +118,7 @@ const Services = () => {
             </div>
 
             {/* 100% Dedication Section */}
-            <div className="bg-lime-100 rounded-lg p-6 flex flex-col items-center justify-center text-center">
+            <div className="col-span-1 lg:col-span-1 bg-lime-100 rounded-lg p-6 flex flex-col items-center justify-center text-center">
                 <h3 className="text-lg md:text-xl font-semibold text-gray-800">100% Dedication</h3>
                 <p className="text-gray-600 mt-2 text-sm md:text-base">
                     We offer a comprehensive range of innovative financial services tailored to meet your needs.
@@ -126,12 +126,12 @@ const Services = () => {
             </div>
 
             {/* Hold Money in Currencies Section */}
-            <div className="col-span-1 bg-white rounded-lg shadow-lg p-6 flex flex-col items-center justify-center text-center">
+            <div className="col-span-1 lg:col-span-1 bg-white rounded-lg shadow-lg p-6 flex flex-col items-center justify-center text-center">
                 <h3 className="text-lg md:text-xl font-semibold text-gray-800">Hold Money In 30+ Currencies</h3>
             </div>
 
             {/* Visit Our Services Page */}
-            <div className="col-span-2 md:col-span-2 lg:col-span-2 bg-teal-500 rounded-lg shadow-lg p-6 flex items-center justify-center">
+            <div className="col-span-1 lg:col-span-2 bg-teal-500 rounded-lg p-6 flex items-center justify-center">
                 <h2 className="text-lg md:text-xl lg:text-2xl font-semibold text-white text-center">
                     Visit Our Services Page
                 </h2>
