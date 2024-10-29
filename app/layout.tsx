@@ -1,9 +1,9 @@
-// app/layout.tsx
-import { Metadata } from 'next'
+import type { Metadata } from 'next'
+import './globals.css'
 
 export const metadata: Metadata = {
   title: 'Fintech Website',
-  description: 'Your fintech website description',
+  description: 'Your description',
 }
 
 export default function RootLayout({
@@ -13,6 +13,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        {/* Add preconnect for any external resources */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
+      </head>
       <body>
         {children}
       </body>
