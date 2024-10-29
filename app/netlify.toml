@@ -2,5 +2,10 @@
   command = "next build"
   publish = ".next"
 
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  
 [[plugins]]
   package = "@netlify/plugin-nextjs"
