@@ -4,7 +4,3 @@
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
-
-[build.environment]
-  NEXT_TELEMETRY_DISABLED = "1"
-  NEXT_PUBLIC_ROOT_URL = "https://fintech-website.netlify.app/"
