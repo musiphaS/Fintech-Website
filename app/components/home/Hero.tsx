@@ -63,10 +63,20 @@ const Hero = () => {
                             <button className="group flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white px-12 py-3 rounded-full transition-all duration-300">
                                 Get Started
                             </button>
-                            <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center">
-                                <Image src="/arrow-right.png" alt="arrow-right" width={30} height={30} />
+                            <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center ml-[-20px]">
+                                <Image src="/arrow-right.png" alt="arrow-right" width={28} height={28} />
                             </div>
                         </Link>
+
+                        {/* CTA Button */}
+                     {/* <Link href="/get-started" className="inline-flex items-center group">
+                        <button className="group flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white px-12 py-3 rounded-full transition-all duration-300">
+                        Open Account
+                        </button>
+                        <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center ml-[-20px]">
+                            <Image src="/arrow-right.png" alt="arrow-right" width={28} height={28} />
+                        </div>
+                    </Link> */}
                     </div>
                 </div>
             </div>

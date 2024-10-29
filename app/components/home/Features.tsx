@@ -28,7 +28,8 @@ const Features = () => {
 
                     <ul className="space-y-4">
                         {features.map((feature, index) => (
-                            <li key={index} className="flex items-start">
+                            <li key={index} className="flex items-center">
+                                <span className="text-gray-400 px-2">•</span>
                                 <span className="text-gray-700">{feature.text}</span>
                             </li>
                         ))}
@@ -37,10 +38,10 @@ const Features = () => {
                     {/* CTA Button */}
                     <Link href="/get-started" className='inline-flex items-center group'>
 
-                        <button className="flex items-center space-x-2 border border-teal-400 text-gray-900 px-8 py-3 rounded-full">
+                        <button className="flex items-center space-x-2 border font-bold border-green-400 text-black px-8 py-3 rounded-full">
                             Get Started
                         </button>
-                        <div className='w-10 h-10 bg-teal-500 rounded-full flex items-center justify-center'>
+                        <div className='w-12 h-12 bg-green-500 rounded-full flex items-center justify-center ml-[-20px]'>
                             <Image src="/arrow-right.png" alt="arrow-right" width={30} height={30} />
                         </div>
                     </Link>
@@ -49,7 +50,7 @@ const Features = () => {
                 {/* Right Content - Phone Images */}
                 <div className="relative">
                     <div className="bg-gray-50 rounded-3xl px-8">
-                        <Image src="/feature-phones.png" alt="Mobile app card settings screen" className="w-full max-w-full max-h-full rounded-3xl object-contain object-cover" width={500} height={50}/>
+                        <Image src="/feature-phones.png" alt="Mobile app card settings screen" className="w-full max-w-full max-h-full rounded-3xl object-contain object-cover" width={500} height={50} />
                     </div>
                 </div>
             </div>

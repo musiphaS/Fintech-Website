@@ -41,6 +41,7 @@ const HeroSection: React.FC = () => {
                 <button className="px-6 py-2 rounded-full border border-teal-400 text-white hover:bg-teal-400 transition-colors">
                     Sign in
                 </button>
+
             </nav>
 
             {/* Hero Content */}
@@ -63,10 +64,15 @@ const HeroSection: React.FC = () => {
                     </p>
 
                     {/* CTA Button */}
-                    <button className="flex items-center space-x-2 bg-[#c5f82a] text-gray-900 px-8 py-3 rounded-full hover:bg-[#d4ff3d] transition-colors">
-                        <span>Open Account</span>
-                    </button>
-                    
+                    <Link href="/get-started" className="inline-flex items-center group">
+                        <button className="group flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white px-12 py-3 rounded-full transition-all duration-300">
+                        Open Account
+                        </button>
+                        <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center ml-[-20px]">
+                            <Image src="/arrow-right.png" alt="arrow-right" width={28} height={28} />
+                        </div>
+                    </Link>
+
 
                 </div>
 
