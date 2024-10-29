@@ -1,18 +1,12 @@
 [build]
   command = "npm run build"
-  publish = ".next"
+  publish = "out"
 
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
+[dev]
+  command = "npm run dev"
+  port = 3000
 
-[build.environment]
-  NEXT_TELEMETRY_DISABLED = "1"
-  NODE_VERSION = "18"
-  NEXT_PUBLIC_SITE_URL = "https://fintech-website.netlify.app"
-
-# Handle all routes
 [[redirects]]
-  from = "/*"
-  to = "/.netlify/functions/nextjs-server"
+  from = "/_next/*"
+  to = "/_next/:splat"
   status = 200
-  force = true
