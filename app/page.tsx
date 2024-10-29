@@ -7,7 +7,7 @@ import Hero from "./components/home/Hero";
 import Testimonials from "./components/home/Testimonials";
 import Services from "./components/home/Services";
 
-const Home: React.FC = () => {
+const Home = () => {
   return (
     <main>       
         <Banner/>
