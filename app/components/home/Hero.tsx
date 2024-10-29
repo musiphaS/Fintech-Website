@@ -4,32 +4,18 @@ import Link from "next/link";
 const Hero = () => {
     return (
         <div className="relative min-h-screen overflow-hidden bg-blue-950">
-            {/* Advanced gradient overlays */}
+            {/* gradient overlays */}
             <div 
                 className="absolute inset-0"
                 style={{
-                    background: `
-                        radial-gradient(
-                            circle at 50% 80%,
-                            rgb(20, 184, 166, 0.3) 0%,
-                            rgb(17, 94, 89, 0.2) 25%,
-                            rgba(2, 6, 23, 0.1) 50%,
-                            transparent 80%
-                        )
-                    `
+                    background: `radial-gradient(circle at 50% 80%, rgb(20, 184, 166, 0.3) 0%, rgb(17, 94, 89, 0.2) 25%, rgba(2, 6, 23, 0.1) 50%, transparent 80% )`
                 }}
             />
             
             <div 
                 className="absolute inset-0"
                 style={{
-                    background: `
-                        linear-gradient(
-                            210deg,
-                            rgba(15, 23, 42, 0.8) 0%,
-                            rgba(15, 23, 42, 0.4) 100%
-                        )
-                    `
+                    background: `linear-gradient(210deg, rgba(15, 23, 42, 0.8) 0%, rgba(15, 23, 42, 0.4) 100% )`
                 }}
             />
             
@@ -65,7 +51,7 @@ const Hero = () => {
                         </div>
 
                         {/* Main heading */}
-                        <h1 className="text-4xl md:text-5xl font-bold leading-tight">
+                        <h1 className="text-4xl md:text-5xl font-bold">
                             WE VALUE YOUR TRUST AND SECURITY
                         </h1>
                         <p className="text-lg text-gray-300 max-w-xl">
