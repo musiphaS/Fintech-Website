@@ -1,12 +1,6 @@
 [build]
-  command = "npm run build"
-  publish = "out"
+  command = "next build"
+  publish = ".next"
 
-[dev]
-  command = "npm run dev"
-  port = 3000
-
-[[redirects]]
-  from = "/_next/*"
-  to = "/_next/:splat"
-  status = 200
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
