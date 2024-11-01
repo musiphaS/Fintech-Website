@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 
-
 const Navbar = () => {
     const navLinks = [
         {title: 'Personal Loan', href:'/personal-loan'},
@@ -28,9 +27,10 @@ const Navbar = () => {
             </div>
 
             {/* Sign In Button */}
-            <button className="px-6 py-2 rounded-full border border-teal-400 text-white hover:bg-teal-400 transition-colors">
+            <button className="hidden px-6 py-2 rounded-full border border-teal-400 text-white hover:bg-teal-400 transition-colors">
                 Sign in
             </button>
+
         </nav>
     )
 }
