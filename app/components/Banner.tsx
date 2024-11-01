@@ -122,15 +122,15 @@ const HeroSection: React.FC = () => {
 
             {/* Payment Methods Section */}
 
-            <div className="relative mx-auto px-6 md:px-12 py-8 flex items-center justify-between bg-green-800">
+            <div className="relative mx-auto px-6 md:px-12 py-8 flex items-center justify-between w-full bg-green-800">
                 {/* Static view for larger devices */}
                 <div className="hidden md:flex items-center justify-between space-x-5">
-                    <Image src="/spherule.png" alt="Spherule" width={120} height={60} /> {/* Adjusted size */}
-                    <Image src="/samsung.png" alt="Samsung" width={120} height={60} /> {/* Adjusted size */}
-                    <Image src="/visa.png" alt="Visa" width={120} height={60} /> {/* Adjusted size */}
-                    <Image src="/amazon.png" alt="Amazon" width={120} height={60} /> {/* Adjusted size */}
-                    <Image src="/paypal.png" alt="PayPal" width={120} height={60} /> {/* Adjusted size */}
-                    <Image src="/alipay.png" alt="Alipay" width={120} height={60} /> {/* Adjusted size */}
+                    <Image src="/spherule.png" alt="Spherule" className='flex-grow w-full object-contain' width={120} height={60} /> {/* Adjusted size */}
+                    <Image src="/samsung.png" alt="Samsung" className='flex-grow w-full object-contain' width={120} height={60} /> {/* Adjusted size */}
+                    <Image src="/visa.png" alt="Visa" className='flex-grow w-full object-contain' width={120} height={60} /> {/* Adjusted size */}
+                    <Image src="/amazon.png" alt="Amazon" className='flex-grow w-full object-contain' width={120} height={60} /> {/* Adjusted size */}
+                    <Image src="/paypal.png" alt="PayPal" className='flex-grow w-full object-contain' width={120} height={60} /> {/* Adjusted size */}
+                    <Image src="/alipay.png" alt="Alipay" className='flex-grow w-full object-contain' width={120} height={60} /> {/* Adjusted size */}
                 </div>
 
                 {/* Mobile view (marquee effect) */}
