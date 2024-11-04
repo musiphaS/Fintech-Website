@@ -38,20 +38,21 @@ const About: React.FC = () => {
     <section className="py-10 px-6 md:px-12 lg:px-20 flex flex-col items-center">
       {/* About Badge */}
       <div className="mb-6">
-        <div className="flex items-center space-x-2 px-4 py-1 bg-headings text-black text-xs font-semibold rounded-full">
+        <div className="flex items-center space-x-2 px-3 py-1 text-sm font-medium bg-headings text-black text-xs font-semibold rounded-full">
           <span role="img" aria-label="fire">🔥</span>
           <span>ABOUT US</span>
         </div>
       </div>
 
       {/* Content Wrapper */}
-      <div className="flex flex-col md:flex-row md:space-x-32 items-center w-full">
+      <div className="flex flex-col md:flex-row md:space-x-48 items-center w-full">
         {/* Left Side - Image Placeholder */}
                  {/* left side chart */}
-                 <div className="rounded-3xl p-10 bg-gray-200">
+                 <div className="rounded-3xl p-10 bg-gray-200 mb-8 md:mb-0">
                  <Image src="/chart-2.png" alt="chart" width={400} height={50}/>
               </div>
         {/* Right Side - Content Cards */}
+
         {/* right side */}
                  <div className="space-y-8">
                      <h1 className="text-3xl md:text-5xl font-bold">
