@@ -38,7 +38,7 @@ const About: React.FC = () => {
     <section className="py-10 px-6 md:px-12 lg:px-20 flex flex-col items-center">
       {/* About Badge */}
       <div className="mb-6">
-        <div className="flex items-center space-x-2 px-4 py-1 bg-gray-100 text-black text-xs font-semibold rounded-full">
+        <div className="flex items-center space-x-2 px-4 py-1 bg-headings text-black text-xs font-semibold rounded-full">
           <span role="img" aria-label="fire">🔥</span>
           <span>ABOUT US</span>
         </div>
@@ -48,13 +48,13 @@ const About: React.FC = () => {
       <div className="flex flex-col md:flex-row md:space-x-32 items-center w-full">
         {/* Left Side - Image Placeholder */}
                  {/* left side chart */}
-                 <div className="bg-white rounded-3xl p-5 bg-gray-300">
+                 <div className="rounded-3xl p-10 bg-gray-200">
                  <Image src="/chart-2.png" alt="chart" width={400} height={50}/>
               </div>
         {/* Right Side - Content Cards */}
         {/* right side */}
                  <div className="space-y-8">
-                     <h1 className="text-2xl md:text-3xl font-bold">
+                     <h1 className="text-3xl md:text-5xl font-bold">
                          ALL YOUR MONEY NEEDS IN ONE APP
                      </h1>
 

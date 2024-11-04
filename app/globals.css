@@ -21,7 +21,7 @@
 
 .marquee-content {
   display: flex;
-  animation: scroll 15s linear infinite;
+  animation: scroll 8s linear infinite;
   min-width: 200%;
 }
 
@@ -32,4 +32,11 @@
   to {
       transform: translateX(-50%);
   }
+}
+
+.bg-banner {
+  background-color: #003B47CC;
+}
+.bg-headings {
+  background-color: #EAECF0;
 }

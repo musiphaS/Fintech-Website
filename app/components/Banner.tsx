@@ -84,7 +84,7 @@ const HeroSection: React.FC = () => {
             <div className="relative max-w-7xl mx-auto px-6 md:px-12 pt-8 pb-20 flex flex-col md:flex-row items-center">
                 {/* left content */}
                 <div className="w-full md:w-1/2 space-y-6">
-                    <div className="inline-flex items-center space-x-2 bg-gray-800/50 rounded-full px-4 py-2">
+                    <div className="inline-flex items-center space-x-2 bg-banner border border-trustworthiness rounded-full px-4 py-2">
                         <span> 🔥 </span>
                         <span className="text-gray-200 text-sm md:text-sm">100% TRUSTED PLATFORM</span>
                     </div>
@@ -124,17 +124,17 @@ const HeroSection: React.FC = () => {
 
             <div className="relative mx-auto px-6 md:px-12 py-8 flex items-center justify-between w-full bg-green-800">
                 {/* Static view for larger devices */}
-                <div className="hidden md:flex items-center justify-between space-x-5">
-                    <Image src="/spherule.png" alt="Spherule" className='flex-grow w-full object-contain' width={120} height={60} /> {/* Adjusted size */}
-                    <Image src="/samsung.png" alt="Samsung" className='flex-grow w-full object-contain' width={120} height={60} /> {/* Adjusted size */}
-                    <Image src="/visa.png" alt="Visa" className='flex-grow w-full object-contain' width={120} height={60} /> {/* Adjusted size */}
-                    <Image src="/amazon.png" alt="Amazon" className='flex-grow w-full object-contain' width={120} height={60} /> {/* Adjusted size */}
-                    <Image src="/paypal.png" alt="PayPal" className='flex-grow w-full object-contain' width={120} height={60} /> {/* Adjusted size */}
-                    <Image src="/alipay.png" alt="Alipay" className='flex-grow w-full object-contain' width={120} height={60} /> {/* Adjusted size */}
+                <div className="hidden md:flex items-center justify-between w-full space-x-5">
+                    <Image src="/spherule.png" alt="Spherule" className=' object-contain' width={120} height={60} /> {/* Adjusted size */}
+                    <Image src="/samsung.png" alt="Samsung" className=' object-contain' width={120} height={60} /> {/* Adjusted size */}
+                    <Image src="/visa.png" alt="Visa" className=' object-contain' width={120} height={60} /> {/* Adjusted size */}
+                    <Image src="/amazon.png" alt="Amazon" className=' object-contain' width={120} height={60} /> {/* Adjusted size */}
+                    <Image src="/paypal.png" alt="PayPal" className=' object-contain' width={120} height={60} /> {/* Adjusted size */}
+                    <Image src="/alipay.png" alt="Alipay" className=' object-contain' width={120} height={60} /> {/* Adjusted size */}
                 </div>
 
                 {/* Mobile view (marquee effect) */}
-                <div className="md:hidden overflow-hidden bg-green-800 py-8">
+                <div className="md:hidden overflow-hidden bg-green-800">
                     <div className="marquee">
                         <div className="marquee-content flex space-x-4">
                             {/* Images repeated to ensure seamless scrolling */}

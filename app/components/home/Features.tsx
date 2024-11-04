@@ -17,12 +17,12 @@ const Features = () => {
             <div className="grid md:grid-cols-2 gap-8 items-center">
                 {/* Left Content */}
                 <div className="space-y-6">
-                    <div className="inline-flex items-center px-3 py-1 rounded-full bg-gray-100">
+                    <div className="inline-flex items-center px-3 py-1 rounded-full bg-headings">
                         <span className="mr-2">🔥</span>
                         <span className="text-sm font-medium">FEATURED</span>
                     </div>
 
-                    <h2 className="text-4xl md:text-5xl font-bold leading-tight">
+                    <h2 className="text-3xl md:text-5xl font-bold leading-tight">
                         ALL THE FEATURES<br />IN ONE APP
                     </h2>
 
@@ -38,11 +38,11 @@ const Features = () => {
                     {/* CTA Button */}
                     <Link href="/get-started" className='inline-flex items-center group'>
 
-                        <button className="flex items-center space-x-2 border font-bold border-green-400 text-black px-8 py-3 rounded-full">
+                        <button className="flex items-center space-x-2 border font-bold border-green-400 text-black px-10 py-2 rounded-full">
                             Get Started
                         </button>
-                        <div className='w-12 h-12 bg-green-500 rounded-full flex items-center justify-center ml-[-20px]'>
-                            <Image src="/arrow-right.png" alt="arrow-right" width={30} height={30} />
+                        <div className='w-10 h-10 bg-green-500 rounded-full flex items-center justify-center ml-[-20px]'>
+                            <Image src="/arrow-right.png" alt="arrow-right" width={24} height={24} />
                         </div>
                     </Link>
                 </div>

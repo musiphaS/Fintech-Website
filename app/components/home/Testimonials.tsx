@@ -46,18 +46,17 @@ const testimonials: Testimonial[] = [
 
 const TestimonialCard: FC<{ testimonial: Testimonial }> = ({ testimonial }) => {
     return (
-        <div className={`p-12 mb-6 rounded-2xl ${testimonial.bgColor || 'bg-white'
-            }`}>
+        <div className={`p-12 mb-6 rounded-2xl ${testimonial.bgColor || 'bg-white'}`}>
                 <Image src="/quote.png" alt="quote" width={50} height={50} />
-                <p className="text-gray-500 mb-8 mt-6">{testimonial.content}</p>
+                <p className={`text-sm ${testimonial.id === 2 ? 'text-white' : 'text-gray-800'}`}>{testimonial.content}</p>
 
                 <div className="flex items-center gap-4">
                     <Image src={testimonial.image} alt={testimonial.name} width={48} height={48} className='rounded-full' />
                     
                     <div>
                     <Image src="/5star.png" alt="star" height={100} width={100} />
-                        <h4 className="font-medium text-gray-800">{testimonial.name}</h4>
-                        <p className="text-sm text-gray-400">{testimonial.role} of {testimonial.company}</p>
+                        <h4 className={`font-medium ${testimonial.id === 2 ? 'text-white' : 'text-gray-800'}`}>{testimonial.name}</h4>
+                        <p className={`text-sm ${testimonial.id === 2 ? 'text-gray-200' : 'text-gray-400'}`}>{testimonial.role} of {testimonial.company}</p>
                     </div>
                 </div>
         </div>
@@ -71,13 +70,16 @@ const Testimonials = () => {
         <section className='bg-gray-100 py-16 px-4'>
             <div className="container mx-auto max-w-6xl">
                 {/* header */}
-                <div className="mb-4 flex items-center justify-center gap-2">
+                <div className="flex justify-center items-center">
+                <div className="mb-4 inline-flex items-center bg-white justify-center gap-2 px-4 py-2 rounded-full">
                     <span>🔥</span>
                     <span className='text-gray-900 uppercase text-sm font-medium tracking-wider'>
                         TESTIMONIAL
                     </span>
                 </div>
-                <h2 className='text-5xl font-bold text-center text-gray-900 mb-12'>
+                </div>
+                
+                <h2 className='text-3xl md:text-5xl font-bold text-center text-gray-900 mb-12'>
                     GET TO KNOW OUR CLIENTS
                 </h2>
 

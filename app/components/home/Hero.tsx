@@ -45,13 +45,13 @@ const Hero = () => {
 
                     {/* Right side */}
                     <div className="w-full md:w-1/2 text-white space-y-6">
-                        <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                        <div className="inline-flex items-center gap-2 bg-banner border border-trustworthiness backdrop-blur-sm px-4 py-2 rounded-full">
                             <span className="text-orange-400">🔥</span>
                             <span className="text-sm font-medium uppercase tracking-wider">Trustworthiness</span>
                         </div>
 
                         {/* Main heading */}
-                        <h1 className="text-4xl md:text-5xl font-bold">
+                        <h1 className="text-3xl md:text-5xl font-bold">
                             WE VALUE YOUR TRUST AND SECURITY
                         </h1>
                         <p className="text-lg text-gray-300 max-w-xl">
@@ -67,16 +67,6 @@ const Hero = () => {
                                 <Image src="/arrow-right.png" alt="arrow-right" width={28} height={28} />
                             </div>
                         </Link>
-
-                        {/* CTA Button */}
-                     {/* <Link href="/get-started" className="inline-flex items-center group">
-                        <button className="group flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white px-12 py-3 rounded-full transition-all duration-300">
-                        Open Account
-                        </button>
-                        <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center ml-[-20px]">
-                            <Image src="/arrow-right.png" alt="arrow-right" width={28} height={28} />
-                        </div>
-                    </Link> */}
                     </div>
                 </div>
             </div>

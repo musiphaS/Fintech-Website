@@ -7,11 +7,11 @@ const Services = () => {
 
         <div className="w-full px-4 py-8 md:py-16">
             <div className="text-center mb-4">
-                <div className="inline-flex items-center gap-2 bg-gray-200 backdrop-blur-sm px-4 py-2 rounded-full">
+                <div className="inline-flex items-center gap-2 backdrop-blur-sm px-4 py-2 rounded-full  border border-[#EAECF0] relative -top-8 md:-top-16 lg:-top-16">
                     <span>🔥</span>
                     <span className="text-sm font-medium uppercase tracking-wider">Services</span>
                 </div>
-                <h1 className="lg:text-5xl md:text-3xl font-bold">Can Help You Achieve <br /> Financial Success</h1>
+                <h1 className="text-3xl md:text-5xl font-bold">Can Help You Achieve <br /> Financial Success</h1>
             </div>
             <div className="grid grid-cols-1 gap-4 p-4 md:grid-cols-2 lg:grid-cols-4 bg-white">
                 {/* Combined Image and Transfer Section */}
