@@ -14,25 +14,19 @@
   grid-template-rows: repeat(6, 2fr);
 }
 
-.marquee {
-  overflow: hidden;
-  display: flex;
-}
-
-.marquee-content {
-  display: flex;
-  animation: scroll 8s linear infinite;
-  min-width: 200%;
-}
-
 @keyframes scroll {
-  from {
-      transform: translateX(0);
+  0% {
+    transform: translateX(0);
   }
-  to {
-      transform: translateX(-50%);
+  100% {
+    transform: translateX(-100%);
   }
 }
+
+.animate-scroll {
+  animation: scroll 20s linear infinite;
+}
+
 
 .bg-banner {
   background-color: #003B47CC;

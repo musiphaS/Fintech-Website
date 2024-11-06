@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Hero = () => {
     return (
-        <div className="relative min-h-screen overflow-hidden bg-blue-950">
+        <div className="relative overflow-hidden bg-blue-950">
             {/* gradient overlays */}
             <div 
                 className="absolute inset-0"
@@ -45,13 +45,13 @@ const Hero = () => {
 
                     {/* Right side */}
                     <div className="w-full md:w-1/2 text-white space-y-6">
-                        <div className="inline-flex items-center gap-2 bg-banner border border-trustworthiness backdrop-blur-sm px-4 py-2 rounded-full">
+                        <div className="inline-flex items-center gap-2 bg-banner border animate-borderPulse backdrop-blur-sm px-4 py-2 rounded-full">
                             <span className="text-orange-400">🔥</span>
                             <span className="text-sm font-medium uppercase tracking-wider">Trustworthiness</span>
                         </div>
 
                         {/* Main heading */}
-                        <h1 className="text-3xl md:text-5xl font-bold">
+                        <h1 className="text-3xl md:text-3xl font-bold">
                             WE VALUE YOUR TRUST AND SECURITY
                         </h1>
                         <p className="text-lg text-gray-300 max-w-xl">

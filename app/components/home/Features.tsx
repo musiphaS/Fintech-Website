@@ -22,7 +22,7 @@ const Features = () => {
                         <span className="text-sm font-medium">FEATURED</span>
                     </div>
 
-                    <h2 className="text-3xl md:text-5xl font-bold leading-tight">
+                    <h2 className="text-3xl md:text-3xl font-bold leading-tight">
                         ALL THE FEATURES<br />IN ONE APP
                     </h2>
 
